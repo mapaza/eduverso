@@ -22,9 +22,9 @@ const Banner = () => {
         right: '14%',
         left: 'auto'
       }, 'slow', 'linear');
-    },4000) */
+    },4000) 
 
-}, []);
+}, []);*/
   return (
     <Box sx={styles.banner} id="banner">
       <Container sx={styles.container}>
