@@ -15,15 +15,15 @@ import { useEffect, useRef } from 'react';
 
 const Banner = () => {
 
-  useEffect(() => {
+ /*  useEffect(() => {
     setTimeout(()=>{
       $('#Title').animate({
         opacity: 0.5,
         right: '14%',
         left: 'auto'
       }, 'slow', 'linear');
-    },4000)
-    
+    },4000) */
+
 }, []);
   return (
     <Box sx={styles.banner} id="banner">
