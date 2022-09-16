@@ -9,7 +9,8 @@ import { useEffect, useRef } from 'react';
 export default function FormContact() {
 
   return (
-    <section id="contact-form" style={{marginBottom:'3vh'}}>
+    <div id="contact">
+    <section id="contact-form" style={{marginBottom:'10vh'}}>
     <h2 className="h2-form-contact">Contact</h2>
     <form id="contact" name="contact" accept-charset="utf-8">
       <label className="label-form-contact"><span>Name</span><input name="name" type="text" placeholder="Name"/></label>
@@ -22,6 +23,7 @@ export default function FormContact() {
       
     </aside>
   </section>
+  </div>
 
   );
 }
